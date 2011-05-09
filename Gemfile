@@ -10,6 +10,18 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 gem 'wirble'	# added manually by RTH to support enhanced console & irb features
 gem 'taps' 		# added manually by RTH to support pushing data up to Heroku
 
+# added manually by RTH to support testing
+group :development do
+  gem 'rspec-rails', '2.0.1'
+end
+
+group :test do
+  gem 'rspec', '2.0.1'
+  gem 'webrat', '0.7.1'
+end
+
+
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
