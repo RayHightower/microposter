@@ -4,7 +4,7 @@ Interesting learning Vim while writing this app. Like changing a tire
 while the car is still moving!
 
 Raymond T. Hightower
-@RayHightower
+@RayHightower<br/>
 @WisdomGroup
 @ChicagoRuby
 @WindyCityRails
