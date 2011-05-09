@@ -2,12 +2,12 @@
 
 Interesting learning Vim while writing this app. Like changing a tire
 while the car is still moving!
-
-Raymond T. Hightower
+<br/>
+Raymond T. Hightower<br/>
 @RayHightower<br/>
-@WisdomGroup
-@ChicagoRuby
-@WindyCityRails
-@WindyCityDB
-@WindyCityGo
+@WisdomGroup<br/>
+@ChicagoRuby<br/>
+@WindyCityRails<br/>
+@WindyCityDB<br/>
+@WindyCityGo<br/>
 
