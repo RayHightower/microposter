@@ -57,7 +57,7 @@ class MicropostsController < ApplicationController
   # PUT /microposts/1.xml
   def update
     @micropost = Micropost.find(params[:id])
-
+  
     respond_to do |format|
       if @micropost.update_attributes(params[:micropost])
         format.html { redirect_to(@micropost, :notice => 'Micropost was successfully updated.') }
