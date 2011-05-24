@@ -1,4 +1,4 @@
-echo "rvm use rbx-head"
-echo "rvm gemset use rbxrthrails3"
-echo "rvm list"
+rvm use rbx-head
+rvm gemset use rbxrthrails3
+rvm list
 
