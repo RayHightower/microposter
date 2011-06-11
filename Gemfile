@@ -1,7 +1,8 @@
 source 'http://rubygems.org'
 
 # This line in gemfile overrides .rvmrc.
-gem 'rails', '3.0.3'
+gem 'rails', '3.1.0.rc1'
+# gem 'rails', '3.0.3'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
