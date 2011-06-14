@@ -12,4 +12,12 @@ class PagesController < ApplicationController
   def about
     # added by RTH to turn us from red to green.
   end
+
+  def jackrabbit
+    
+  end
+
+  def octagon
+    
+  end
 end
