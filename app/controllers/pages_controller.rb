@@ -13,6 +13,11 @@ class PagesController < ApplicationController
     # added by RTH to turn us from red to green.
   end
 
+  def help
+    # added by RTH to turn 'help' test from red to green.
+    
+  end
+
   def jackrabbit
     
   end

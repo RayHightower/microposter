@@ -22,7 +22,7 @@ Spork.prefork do
     # == Mock Framework
     config.mock_with :rspec
 
-    config.fixture_path = "#{}::Rails.root}/spec/fixtures"
+    config.fixture_path = "#{::Rails.root}/spec/fixtures"
 
     config.use_transactional_fixtures = true
 

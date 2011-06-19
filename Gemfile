@@ -14,11 +14,11 @@ gem 'taps' 		# added manually by RTH to support pushing data up to Heroku
 
 # added manually by RTH to support testing
 group :development do
-  gem 'rspec-rails', '2.6.4' # bumped from 2.0.1 to 2.6.4 by RTH
+  gem 'rspec-rails', '2.6.1' # bumped from 2.0.1 to 2.6.1 by RTH
 end
 
 group :test do
-  gem 'rspec', '2.6.4' # bumped from 2.0.1 to 2.6.4 by RTH
+  gem 'rspec', '2.6.0' # bumped from 2.0.1 to 2.6.0 by RTH
   gem 'webrat', '0.7.1'
   gem 'spork', '0.8.4'
 end
