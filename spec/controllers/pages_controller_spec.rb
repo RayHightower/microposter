@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe PagesController do
-  render_views
+  render_views # RSpec needs to be told this explicitly.
   
   describe "GET 'home'" do
     it "should be successful" do

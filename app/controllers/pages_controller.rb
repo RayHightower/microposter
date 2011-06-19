@@ -1,28 +1,18 @@
 class PagesController < ApplicationController
   def home
-    @apple = 1
-    # Will autotest run when I add these two random lines?
+    @title = "Home"
   end
 
   def contact
-    # How about now? The autotest terminal window is visible.  
-    # Yes, autotest runs. It just seems to respond slowly.
+    @title = "Contact"
   end
 
   def about
-    # added by RTH to turn us from red to green.
+    @title = "About"
   end
 
   def help
-    # added by RTH to turn 'help' test from red to green.
-    
+    @title = "Help"
   end
 
-  def jackrabbit
-    
-  end
-
-  def octagon
-    
-  end
 end
