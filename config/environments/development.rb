@@ -11,7 +11,9 @@ DemoApp::Application.configure do
 
   # Show full error reports and disable caching
   config.consider_all_requests_local       = true
-  config.action_view.debug_rjs             = true
+
+  # rem'd per http://weblog.rubyonrails.org/2011/4/21/jquery-new-default
+  #  config.action_view.debug_rjs             = true
   config.action_controller.perform_caching = false
 
   # Don't care if the mailer can't send
