@@ -1,4 +1,6 @@
 DemoApp::Application.routes.draw do
+  get "pages/index"
+
   get "pages/home"
 
   get "pages/contact"
@@ -7,9 +9,11 @@ DemoApp::Application.routes.draw do
 
   get "pages/help"
 
-  resources :microposts
+  # root :to => "pages#index"
 
-  resources :users
+  # resources :microposts
+
+  # resources :users # a whole bunch of routes are created by 'resources'!!!
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
