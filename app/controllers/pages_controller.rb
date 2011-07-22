@@ -23,4 +23,8 @@ class PagesController < ApplicationController
   def new_random_method
     
   end
+
+  def another_new_random_method
+    
+  end
 end
