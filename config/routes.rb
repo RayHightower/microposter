@@ -1,7 +1,7 @@
 DemoApp::Application.routes.draw do
   # get "pages/index"
 
-  # get "pages/home"
+  get "pages/home"
 
   # get "pages/contact"
 
