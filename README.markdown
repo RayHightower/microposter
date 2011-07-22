@@ -1,13 +1,11 @@
-# Learning Vim while creating this demoapp described in "Ruby on Rails 3 Tutorial".
+# Microblogging App from Michael Hartl
+This is a twitter-like microblogging app described by Michael Hartl in
+"Ruby on Rails 3 Tutorial". Excellent book. Hartl's academic background
+shows right through!
 
-Interesting learning Vim while writing this app. Like changing a tire
-while the car is still moving!
 <br/>
 Raymond T. Hightower<br/>
-@RayHightower<br/>
-@WisdomGroup<br/>
-@ChicagoRuby<br/>
-@WindyCityRails<br/>
-@WindyCityDB<br/>
-@WindyCityGo<br/>
+[@RayHightower](http://twitter.com/rayhightower)<br/>
+[@WisdomGroup](http://twitter.com/wisdomgroup)<br/>
+[@WindyCityRails](http://twitter.com/windycityrails)<br/>
 
