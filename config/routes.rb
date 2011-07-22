@@ -1,17 +1,17 @@
 DemoApp::Application.routes.draw do
-  get "pages/index"
+  # get "pages/index"
 
-  get "pages/home"
+  # get "pages/home"
 
-  get "pages/contact"
+  # get "pages/contact"
 
-  get "pages/about"
+  # get "pages/about"
 
-  get "pages/help"
+  # get "pages/help"
 
   # root :to => "pages#index"
 
-  # resources :microposts
+  resources :microposts
 
   # resources :users # a whole bunch of routes are created by 'resources'!!!
 
