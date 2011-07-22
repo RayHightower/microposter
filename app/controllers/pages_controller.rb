@@ -20,4 +20,7 @@ class PagesController < ApplicationController
     @title = "Help"
   end
 
+  def new_random_method
+    
+  end
 end
