@@ -1,7 +1,8 @@
 source 'http://rubygems.org'
 
 # This line in gemfile overrides .rvmrc.
-gem 'rails', :git => 'git://github.com/rails/rails.git', :branch => '3-1-stable'
+# gem 'rails', :git => 'git://github.com/rails/rails.git', :branch => '3-1-stable'
+gem 'rails', '3.1.0.rc4' 
 
 gem 'sqlite3-ruby', :require => 'sqlite3'
 
