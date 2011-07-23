@@ -59,7 +59,7 @@ describe PagesController do
     it "should have the right title" do
       get 'index'
       response.should have_selector("title",
-                                    :content => "Microposter App | Index")
+                                    :content => "Microposter App | Index$")
     end
   end
 end
