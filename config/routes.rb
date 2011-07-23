@@ -9,7 +9,7 @@ DemoApp::Application.routes.draw do
 
   get "pages/help"
 
-  # root :to => "pages#index"
+  root :to => "pages#index" # This line also gives a route to "pages/index"
 
   resources :microposts
 
