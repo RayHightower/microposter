@@ -9,6 +9,7 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 gem 'wirble'	# added manually by RTH to support enhanced console & irb features
 gem 'taps' 		# added manually by RTH to support pushing data up to Heroku
 gem 'faker'   # generates lorem ipsum text, etc.
+gem 'haml'
 
 # added manually by RTH to support testing
 group :development do
