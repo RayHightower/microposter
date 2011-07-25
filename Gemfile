@@ -21,7 +21,7 @@ group :test do
   gem 'webrat', '0.7.1'
   gem 'spork', '0.9.0.rc9' # bumped to this version per https://rubygems.org/gems/spork/versions/0.9.0.rc9
   gem 'rb-fsevent'
-  gem 'autotest'
+  gem 'autotest'            #autotest and supporting files. Change to dev only?
   gem 'autotest-rails-pure'
   gem 'autotest-fsevent'
   gem 'autotest-growl'
