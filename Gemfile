@@ -21,5 +21,9 @@ group :test do
   gem 'webrat', '0.7.1'
   gem 'spork', '0.9.0.rc9' # bumped to this version per https://rubygems.org/gems/spork/versions/0.9.0.rc9
   gem 'rb-fsevent'
-  gem 'guard-spork'        # Trying guard instead of Autotest per Hashrocket advice.
+  gem 'autotest'
+  gem 'autotest-rails-pure'
+  gem 'autotest-fsevent'
+  gem 'autotest-growl'
+  # gem 'guard-spork'        # Trying guard instead of Autotest per Hashrocket advice.
 end
