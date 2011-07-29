@@ -13,6 +13,11 @@ describe PagesController do
       response.should have_selector("title",
                                     :content => "Microposter App | Home")
     end
+    it "should be a pending test" do
+      pending
+      puts "Can I print something random here?"
+      puts "Looks like printing is not allowed here."
+    end
   end
 
   describe "GET 'contact'" do
