@@ -15,6 +15,8 @@ DemoApp::Application.routes.draw do
 
   resources :users # a whole bunch of routes are created by 'resources'!!!
 
+  resources :jackrabbits
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

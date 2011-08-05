@@ -1,0 +1,21 @@
+<h1>Listing jackrabbits</h1>
+
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @jackrabbits.each do |jackrabbit| %>
+  <tr>
+    <td><%= link_to 'Show', jackrabbit %></td>
+    <td><%= link_to 'Edit', edit_jackrabbit_path(jackrabbit) %></td>
+    <td><%= link_to 'Destroy', jackrabbit, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Jackrabbit', new_jackrabbit_path %>
